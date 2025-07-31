@@ -61,8 +61,8 @@ const Home = () => {
           <div>
             <div className='bg-[#2a3346] p-10 m-5 rounded-lg shadow-lg'>
               <h2 className='text-3xl font-bold text-white mb-4'>About Me:</h2>
-              <div className=" grid grid-cols-1 lg:grid-cols-2 gap-2 bg-[#000000] p-3 m-6 rounded-lg shadow-lg h-fit">
-                <div className='bg-[#000000]   rounded-lg shadow-lg  flex-1/3 justify-center items-center'>
+              <div className=" grid grid-cols-2 lg:grid-cols-2 gap-2 bg-[#2a3346] p-3 m-6 rounded-lg shadow-lg h-fit">
+                <div className='bg-[#000000]   rounded shadow-lg  flex-1/3 justify-center items-center'>
                   <img src='src/assets/lalindu.jpg' alt='Lalindu' className='w-full h-full object-cover rounded-lg p-3' />
                 </div>
                 <div >

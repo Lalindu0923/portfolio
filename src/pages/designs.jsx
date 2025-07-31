@@ -89,5 +89,4 @@ const Designs = () => {
             );
           }
             
-
-            export default Designs;
+export default Designs;

@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className=' p-4 text-white flex justify-between items-center'> 
-      <nav className='flex space-x-10 p-3 fixed bg-[#1a4f5f]  top-0 left-0 w-full  text-white shadow-md z-50 rounded-lg'>
+      <nav className='flex space-x-10 p-3 fixed bg-[#152026]  top-0 left-0 w-full  text-white shadow-md z-50 rounded-lg'>
 
         <Link 
           to="/" 
