@@ -36,9 +36,15 @@ const Designs = () => {
 
                 {/* Project Buttons */}
                 <div className="flex space-x-3">
+                  <a
+                    href="https://www.figma.com/design/lX9VU5aqH7ELH8yBgrfMN8/Movie-Hub?node-id=1-2&t=W7THl6ma6RUsenqL-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >                                
                   <button className="px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-md text-sm transition-colors">
                     View Live
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -74,12 +80,64 @@ const Designs = () => {
 
               {/* Project Buttons */}
                 <div className="flex space-x-3">
+                  <a
+                    href="https://www.figma.com/design/9U6cWw2aqDQumX5GKsS1di/Portfolio?node-id=0-1&t=Ep5eYGyZB8Pe8nRR-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >              
                   <button className="px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-md text-sm transition-colors">
                     View Live
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
+
+
+            {/* Project Card 3 */}
+            <div className="bg-[#223E48] rounded-lg shadow-lg overflow-hidden">
+              {/* Project Image Area */}
+              <div className="h-71 bg-slate-600 relative">
+                <div className="absolute inset-0 flex items-center justify-center text-slate-400">
+                  <img src="src/assets/EventHandler.png" alt="Design 1" className="w-full h-full object-cover" />
+                </div>
+              </div>
+
+              {/* Project Details Section */}
+              <div className="p-6 bg-[#17343b]">
+                <h3 className="font-serif text-3xl font-bold text-white mb-3 ">Event Handler - UI/UX Design for Admin Page view</h3>
+                <p className="text-slate-300 mb-4 leading-relaxed">
+                  Design an event handler Admin web application from an admin point of view. Animation and
+                  Prototype.
+                </p>
+
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center text-sm text-slate-400">
+                    <span className="w-20">Tech:</span>
+                    <span className="text-slate-300">Figma</span>
+                  </div>
+                  <div className="flex items-center text-sm text-slate-400">
+                    <span className="w-20">Status:</span>
+                    <span className="text-green-400">Completed</span>
+                  </div>
+                </div>
+
+                {/* Project Buttons */}
+                <div className="flex space-x-3">
+                  <a
+                    href="https://www.figma.com/design/xkIRUFDI3cxUI4CQ3qQL3M/EventHandlerAdmin?node-id=0-1&t=tIu0kxzHsX4jy7hw-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                  <button   
+                    className="px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-md text-sm transition-colors">
+                    View Live
+                  </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

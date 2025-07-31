@@ -1,6 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+
+  const navigate =useNavigate();
+
   return (
     <>
     <div className="bg-[#152026] flex flex-col min-h-screen">
@@ -22,7 +26,9 @@ const Home = () => {
                         <img src='src/assets/word.jpeg' className="absolute w-16 top-[75%] left-[10%] hover:scale-110 transition" alt="Adobe" />
               <div className="bg-[#17343b] rounded-l-lg shadow-lg p-6 flex flex-col justify-between items-center">
               <div>
-                <button className="px-4 py-2  bg-teal-600 hover:bg-teal-700 text-white rounded-md text-sm transition-colors">
+                <button
+                  onClick={() => navigate('/designs')}
+                  className="px-4 py-2  bg-teal-600 hover:bg-teal-700 text-white rounded-md text-sm transition-colors">
                   view designs
                 </button>
               </div>
@@ -51,7 +57,9 @@ const Home = () => {
                       <img src='src/assets/NetBeans.jpeg' className="absolute w-16 top-[75%] left-[55%]  hover:scale-110 transition" alt="Adobe" />
               <div className="bg-[#17343b] rounded-r-lg shadow-lg p-6 flex flex-col justify-between items-center">
               <div>
-                <button className="px-4 py-2  bg-teal-600 hover:bg-teal-700 text-white rounded-md text-sm transition-colors">
+                <button
+                  onClick={() => navigate('/projects')}
+                  className="px-4 py-2  bg-teal-600 hover:bg-teal-700 text-white rounded-md text-sm transition-colors">
                   view Projects
                 </button>
               </div>
